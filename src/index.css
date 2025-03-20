@@ -22,6 +22,8 @@ header {
   display: flex;
   justify-content: space-around;
   margin-top: 1.5rem;
+  align-content: center;
+
 
   .img {
     height: 885px
@@ -37,9 +39,6 @@ header {
     a {
       text-decoration: none;
       color: var(--dc-dark);
-
     }
-
   }
-
 }

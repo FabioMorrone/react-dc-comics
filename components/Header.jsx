@@ -2,7 +2,7 @@ export default function header() {
     return (
         <header>
             <div className="logo">
-                <img src="/favicon.ico" alt="" />
+                <img src="/dc-logo.png" alt="" />
             </div>
             <nav>
                 <ul className="menu">
