@@ -20,13 +20,14 @@ body {
 
 header {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   margin-top: 1.5rem;
   align-content: center;
 
 
   .img {
-    height: 885px
+    display: block;
   }
 
 
@@ -39,6 +40,25 @@ header {
     a {
       text-decoration: none;
       color: var(--dc-dark);
+      font-weight: 700;
     }
+  }
+}
+
+
+main {
+  width: 1280px;
+  height: 287px;
+
+
+
+  .title {
+    height: 132px;
+    background-color: var(--dc-dark);
+  }
+
+  .icon {
+    height: 155.5px;
+    background-color: var(--dc-secondary);
   }
 }
