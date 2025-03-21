@@ -76,6 +76,9 @@ main {
       .icon {
         height: 155.5px;
 
+        .img {
+          height: 55px;
+        }
       }
     }
 
@@ -85,7 +88,4 @@ main {
 
 
 
-  .img {
-    height: 55px;
-  }
 }
