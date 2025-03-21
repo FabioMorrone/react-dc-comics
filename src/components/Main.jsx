@@ -1,11 +1,12 @@
 export default function main() {
     return (
         <main>
+            <section className="banner_up">
+
+            </section>
             <section className="jumbotron">
                 <div className="container d-flex">
-                    <div className="title">
-                        <h1>Content goes here</h1>
-                    </div>
+
                 </div>
             </section>
             <section className="banner">

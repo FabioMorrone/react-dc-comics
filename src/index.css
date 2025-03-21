@@ -49,6 +49,15 @@ header {
 
 
 main {
+  .banner_up {
+    background-image: url("/jumbotron.jpg");
+    background-size: cover;
+    height: 450px;
+  }
+
+
+
+
   .jumbotron {
 
     background-color: var(--dc-dark);
