@@ -58,8 +58,30 @@ main {
     height: 450px;
   }
 
+  .unstile-list {
+    list-style: none;
+    display: flex;
+
+  }
+
+  .info-icon {
+    padding: 2rem;
+
+    display: flex;
+    font-size: 10px;
+    color: var(--dc-light);
+
+    span {
+      margin-left: 1rem;
+    }
+
+    img {
+      justify-content: space-between;
+      height: 55px;
+    }
 
 
+  }
 
   .jumbotron {
 
@@ -71,6 +93,7 @@ main {
   .banner {
     background-color: var(--dc-primary);
     height: 155.5px;
+    display: flex;
 
   }
 }
