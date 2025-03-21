@@ -29,8 +29,10 @@ header {
   margin-top: 1.5rem;
   align-content: center;
 
+
   .img {
-    display: block;
+    display: inline-block;
+
 
   }
 
@@ -40,6 +42,7 @@ header {
     list-style: none;
 
     a {
+
       text-decoration: none;
       color: var(--dc-dark);
       font-weight: 700;
@@ -69,8 +72,5 @@ main {
     background-color: var(--dc-primary);
     height: 155.5px;
 
-
-
   }
-
 }
