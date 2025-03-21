@@ -1,13 +1,13 @@
 export default function header() {
     return (
         <header>
-            <div className="container">
+            <div className="container d-flex">
 
                 <div className="logo">
                     <img src="/dc-logo.png" alt="" />
                 </div>
-                <nav>
-                    <ul className="menu">
+                <nav >
+                    <ul className="menu" >
                         <li><a href="">CHARACTERS</a></li>
                         <li><a href="">COMICS</a></li>
                         <li><a href="">MOVIES</a></li>
