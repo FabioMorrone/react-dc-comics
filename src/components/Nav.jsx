@@ -1,5 +1,5 @@
 
-import Nav from '../data/nav'
+import menuList from '../data/NavData'
 
 
 
@@ -14,9 +14,7 @@ export default function Nav() {
                             <a href={link.url}>{link.Name}</a>
                         </li>
                     ))
-
                 }
-
             </ul>
         </nav>
     )

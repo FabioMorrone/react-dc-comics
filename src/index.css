@@ -128,11 +128,55 @@ main {
 
   }
 
+  .col {
+    width: calc(100% / 12 * 2);
+    padding: 1rem;
+  }
 
 
 }
 
-.col {
-  width: calc(100% / 12 * 2);
-  padding: 1rem;
+
+
+footer {
+  background-image: url('/public/footer-bg.jpg');
+  background-position: right;
+  justify-content: space-between;
+  background-position: center;
+  background-size: cover;
+
+
+  .footer-links {
+    display: flex;
+
+    color: var(--dc-light);
+    width: 100%;
+
+    h3 {
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+
+    ul {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: var(--dc-footer);
+        font-size: small;
+      }
+    }
+  }
+
+  container {
+    display: flex;
+
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      position: 1rem;
+
+    }
+  }
+
 }

@@ -1,62 +1,63 @@
 const menuList = [
     {
         id: 1,
-        Name: 'Characters',
+        Name: 'CARACTERES',
         url: '#',
     },
 
     {
         id: 2,
-        Name: 'Comics',
+        Name: 'COMICS',
         url: '#',
     },
 
     {
         id: 3,
-        Name: 'Movies',
+        Name: 'MOVIES',
         url: '#',
     },
 
     {
         id: 4,
-        Name: 'Tv',
+        Name: 'TV',
         url: '#',
     },
 
     {
         id: 5,
-        Name: 'Games',
+        Name: 'GAMES',
         url: '#',
     },
 
     {
         id: 6,
-        Name: 'Collectibles',
+        Name: 'COLLECTIBLES',
         url: '#',
     },
 
     {
         id: 7,
-        Name: 'Videos',
+        Name: 'VIDEOS',
         url: '#',
     },
 
     {
         id: 8,
-        Name: 'Fans',
+        Name: 'FANS',
         url: '#',
     },
 
     {
         id: 9,
-        Name: 'News',
+        Name: 'NEWS',
         url: '#',
     },
 
     {
         id: 10,
-        Name: 'Shop',
+        Name: 'SHOP',
         url: '#',
     }
 ]
 
+export default menuList
