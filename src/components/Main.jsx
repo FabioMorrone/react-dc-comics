@@ -5,7 +5,9 @@ export default function Main() {
         <main>
             <section className="banner_up">
             </section>
+
             <DcList />
+
             <section className="banner">
                 <div className="container d-flex">
 

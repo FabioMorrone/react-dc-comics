@@ -10,12 +10,12 @@ export default function DcList() {
         <div className='containerDc'>
             <div className='row'>
                 {
-                    comics.map(comic => {
+                    comics.map(comic => (
+
                         <Card key={comic.id} thumb={comic.thumb} series={comic.series} />
-                    })
+                    ))
                 }
             </div>
-
         </div>
     )
 }
